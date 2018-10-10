@@ -17,7 +17,7 @@ body {
     height: 25%;
     border: 2px solid white;
     box-sizing: border-box;
-    background: #2363cc;
+    background: red;
 }
 
 #weather-box li.double {
