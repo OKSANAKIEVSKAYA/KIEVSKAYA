@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,600');
+@font-face{
+  font-family: 'Aleo';
+  src: url("fonts/aleo-regular-webfont.woff") format('woff'), url("fonts/aleo-bold-webfont.woff") format('woff');
+  //font-weight: normal;
+  //font-style: normal;
+}
+
+body {
+  font: 400 16px/26px 'Josefin Sans', Arial, sans-serif;
+  color:  #e8e8e8;
+  //width: 1800px;
+  padding: 15px;
+}
+
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+//Первая секция
+
+.ba-container--first {
+  max-width: 690px;
+}
+
+.ba-one {
+  background: #00092A url("img/ba-one.jpg") 50% no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  padding: 280px 0 289px;
+  //min-height: 100vh;
+  max-width: 100vw;
+  font-size: 22px;
+  letter-spacing: .24em;
+}
+
+.ba-one__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: .07em;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.ba-one__title:hover {
+  color: yellow;
+}
+
+.ba-one__text {
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+
+
+.ba-form {
+  display: flex;
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  width: 650px;
+  height: 60px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: baseline;
+  background: #FFFFFF;
+  color:  #999999;
+  font-size: 14px;
+  letter-spacing: .13em;
+  padding-left: 122px;
+}
+
+.ba-input {
+  width: 146px;
+  height: 54px;
+  border: none;
+  background: #5273FA;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: .1em;
+}
+
+//.ba-input:after {
+//  content: url("img/ba-serch.svg");
+//  display: inline-block;
+//  width: 15px;
+//  height: 15px;
+//}
+
+//Вторая секция
+
+.ba-two {
+  background-color: #5474FD;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.ba-header {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1150px;
+}
+
+.ba-logo {
+  text-decoration: none;
+  color: #F9FAFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: .09em;
+}
+
+.ba-logo:hover {
+  color: red;
+}
+
+.ba-nav {
+  width: 600px;
+}
+
+.ba-menu {
+  list-style: none;
+  text-align: right;
+  padding-left: 0;
+}
+
+.ba-paragraph {
+  display: inline-block;
+}
+
+.ba-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #F9FAFF;
+  padding-left: 42px;
+}
+
+.ba-link:hover {
+  color: red;
+}
+
+
+//quote-left-кавычки neuter-лупа
+
+
+
+//Третья секция
+
+.ba-three {
+  height: 685px;
+  background: #34393C url("img/Rectangle 7.jpg") 50% no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  margin: 0;
+}
+
+.ba-container--third {
+  padding: 180px 0 132px;
+  position: relative;
+}
+
+.ba-pa {
+  height: 349px;
+  width: 530px;
+}
+
+.ba-aleo {
+  font: 400 36px/26px 'Aleo', Arial, sans-serif;
+  color:  #e8e8e8;
+  letter-spacing: 0;
+  margin-bottom: 65px;
+}
+
+.ba-text1 {
+  width: 530px;
+  letter-spacing: .03em;
+  margin-bottom: 20px;
+  margin-top: 25px;
+
+}
+
+.ba-image3-1 {
+  position: absolute;
+  margin-top: -430px;
+  margin-left: 655px;
+}
+
+.ba-image3-2 {
+  position: absolute;
+  margin-top: -207px;
+  margin-left: 780px;
+}
+
+.ba-khopka {
+  width: 225px;
+  height: 60px;
+  background: #5373FA;
+  border: none;
+  color: white;
+}
+.ba-input:hover, .ba-khopka:hover {
+  background: #00b3ff;
+}
+
+//Четвёртая секция
+
+.ba-four {
+  height: 337px;
+  background: #323232;
+}
+
+
+
+//Пятая секция
+
+.ba-five {
+  height: 700px;
+  background: #6B5F8D url("img/Rectangle 414.jpg") 50% no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  padding-top: 229px;
+
+}
+
+.ba-abz {
+  width: 540px;
+  height: 371px;
+  background-color:  rgba(35, 35, 35, 0.9);
+  padding: 50px 30px;
+}
+
+
+
+
+//Шестая секция
+
+.ba-six {
+  height: 700px;
+  background: #9E5560 url("img/Rectangle 4141.jpg") 50% no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  padding-top: 229px;
+}
+
+.ba-container--sixth {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+//Седьмая секция
+
+.ba-seven {
+  height: 731px;
+  background: #222323 url("img/Rectangle 4142.jpg") 50% no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  margin: 0;
+}
+
+.ba-header--seventh {
+  padding: 120px 0 200px;
+}
+
+//Восьмая секция
+
+
+.ba-eight {
+  margin-top: 2px;
+  height: 268px;
+  background: #232323;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
